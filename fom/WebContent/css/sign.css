@@ -1,0 +1,70 @@
+@charset "EUC-KR";
+*{
+   font-family:sans-serif;
+}
+.main{
+   width: 1080px;
+   margin: 0 auto;
+}
+
+.signbox{
+   width: 425px; 
+   position: absolute;
+   left: 50%;
+   top: 50%;   
+   transform: translate(-50%, -50%);
+}
+
+.signbox h2 {
+   padding: 0 0 20px;
+   border-bottom: 2px solid;
+   text-align: center;
+   line-height: 1;
+   font-size: 32px; 
+   color: #111;
+}
+.signbox ul{
+   padding: 40px 0 33px;
+   list-style: none;
+}
+.signbox ul li{
+   padding:0 0 12px; 
+   text-align: left;
+   margin-top: -10px;
+   margin-bottom: 10px;
+   display:flex;
+   
+}
+.signbox ul li input { 
+   width: 100%; 
+   height: 46px;
+   box-sizing: border-box; 
+   text-indent: 16px;
+}
+.signbox ul li p{
+   margin-right: 22px;
+    font-size: 12pt;
+}
+
+.signbox button { 
+   width: 100%; 
+   height: 56px; 
+   background:#ed1c24; 
+   font-size: 18px; 
+   color:#fff;
+}
+#idtxt{
+   width:75%;
+   display:inline-flex;
+}
+
+#checksx{
+   width: 23%;
+    margin-left: 12px;
+    text-align: center;
+}
+#multiname{
+   position: relative;
+    width: 20%;
+    padding: 0 25px 0 0px;
+}

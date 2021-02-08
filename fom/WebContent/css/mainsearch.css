@@ -1,0 +1,99 @@
+@charset "EUC-KR";
+*{
+	font-family:sans-serif;
+}
+.blank{
+	position:absolute;
+	width: 100%;
+	background: #000;
+	height:100px;
+}
+
+.blank2{
+	position:absolute;
+	bottom:0%;
+	height:100px;
+	width: 100%;
+	background: #000;
+}
+
+.blind {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+#logo{
+	margin: 0 auto;
+    position: absolute;
+    width:400px;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+#logo img{
+	width:400px;
+}
+
+#searchbox{
+	margin: 0 auto;
+	width: 420px; 
+	position: absolute;
+	left: 50%;
+	top: 50%;	
+	transform: translate(-50%, -50%);
+	
+}
+	
+.searchtxt{
+	position: relative;
+    left: -17px;
+    top: -15px;
+    width: 458px;
+    height: 71px;
+}
+
+#search fieldset {
+	margin-left:20px;
+	/* padding-top:12px;
+	padding-bottom:12px;
+	padding-left:10px;
+	padding-right:0; 
+	      ↓ 코드 줄임*/
+	padding: 12px 0 12px 10px;
+    border: 3px solid #0fa5dd;
+    width: 521px;
+    height: 49px;
+    display: inline-block;
+    vertical-align: middle;
+    top: 50%;
+    left: -50%;
+}
+
+#search fieldset input{
+	border: none;
+	padding: 0;
+	outline: none;
+}
+#search fieldset button{
+	    width: 77px;
+    height: 77px;
+    border: none;
+    padding: 0;
+    background: #0fa5dd;
+    position: absolute;
+    right: -134px;
+    top: 1px;
+    color: #fff;
+	
+}
+#search fieldset select{
+	background: #fff;
+    position: relative;
+    top: -12px;
+    left: -10px;
+    padding: 27px 0px 25px 0px;
+
+}

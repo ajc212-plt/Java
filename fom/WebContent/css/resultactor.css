@@ -1,0 +1,357 @@
+
+@charset "UTF-8";
+*{
+	font-family:sans-serif;
+}
+.blank2{
+	position:absolute;
+	bottom:0%;
+	height:100px;
+	width: 100%;
+	background: #000;
+	background:rgb(0,0,);
+}
+.headbox{
+	background: #000;
+}
+.head{
+	position: relative;
+	margin: 0 auto;
+	width: 1400px;
+	text-align: right;
+}
+.head ul{
+	display: inline-flex;
+	list-style:none;
+}
+.head ul li{
+	margin-left:10px;
+}
+.head ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.blind {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+#searchbox{
+	background: #000;
+}
+#search{
+	position: relative;
+	margin: 0 auto;
+	width: 1400px;
+
+}
+
+#search h1 {
+	width:200px;/* 이미지나 글자의 가로 길이 */
+	height:50px;/* 이미지나 글자의 세로 넓이 */
+	display:inline-block;
+	/* background-image: url('images/logo.png');
+	background-position: -4px -10px;-는 좌에서 위에서, +는 반대로
+	background-repeat: no-repeat;공간이 있을경우 이미지 반복 x  */
+	/*↓ 코드 줄임*/
+	background: url('/fom/images/minilogo.png') -1px -1px no-repeat;/* logo.png 크기 수정, 구글 검사에서 위치 조절 가능함. */
+	/*글자 안보이게 하는 방법  */
+	text-indent: 100%; /* 글자 들여쓰기 */
+	overflow:hidden;/* 바깥으로 나가건 안보이게 해줌 */
+	/*  */
+	
+}
+#search a{
+	text-decoration: none;/* a태그는 밑줄이 생길수 있는데 그걸 안보이게 해줌 */
+}
+
+#search h2 {
+	display: none;
+	
+}
+.searchtxt{
+	position: relative;
+    left: -10px;
+    top: -13px;
+    width: 458px;
+    height: 74px;
+}
+
+#search fieldset {
+	margin-left:20px;
+	/* padding-top:12px;
+	padding-bottom:12px;
+	padding-left:10px;
+	padding-right:0; 
+	      ↓ 코드 줄임*/
+padding: 12px 0 12px 10px;
+    border: 3px solid #0fa5dd;
+    width: 521px;
+    height: 49px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -40px;
+    left: 15%;
+}
+#search fieldset input{
+	border: none;
+	padding: 0;
+	outline: none;
+}
+#search fieldset button{
+	width: 75px;
+	height: 77px;
+	border: none;
+	padding:0;
+	background:#0fa5dd;
+	position:absolute;
+	right: -2px;
+	top:-2px;
+	color: #fff;
+	
+}
+#search fieldset select{
+		background: #fff;
+    position: relative;
+    top: -12px;
+    left: -10px;
+    padding: 27px 0px 25px 0px;
+}
+
+#search-image{
+	/* Zerocho TV 3-4 검색버튼 만들기  */
+	/* background-image:url();
+	background-position: 11px -45px; 이미지 위치 잡기
+	background-repeat: no-repeat;
+	background-size: 30px 30px; 이미지 크기 조절
+	width: 21px;
+	height: 21px;
+	display:inline-block;
+	margin: 14px; */
+	/*  */
+}
+#menubox{
+	position:relative;
+	top: -17px;
+	width:100%;
+	background: #2d2d2d;
+}
+#menubox nav{
+	margin: 0 auto;
+	width: 1400px;
+}
+#menubox nav ul{
+	display:inline-flex;
+	list-style: none;
+}
+#menubox nav ul li{
+	margin-left:100px;
+}
+#menubox nav ul li a{
+	color:#e6e6e6;
+	text-decoration: none;
+}
+
+main{
+	position:relative;
+	top: -42px;
+	width:100%;
+	height: 1450px;
+	background:#424242;
+	z-index: 1;
+}
+#totalbox{
+	position: relative;
+        top: 100px;
+    width: 1400px;
+    height: 320px;
+    margin: 0 auto;
+    color: #000;
+    display: block;
+}
+#imagebox{
+	position: absolute;
+    top: 0px;
+    border: 1px solid #fff;
+    margin: 10px 10px 10px 10px;
+    height: 270px;
+    width: 220px;
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+    border: 20px;
+    background: #2d2d2d;
+    }
+    
+#totalbox h1{
+	position: relative;
+    top: -15%;
+    color: #fff;
+}
+	
+	
+#imagebox img{
+	width: 100%;
+	max-width: 220px;
+	vertical-align: middle;
+	text-align: center;
+}
+#box2{
+	position: relative;
+    top: 10px;
+    right: -300px;
+    border-radius: 10px;
+    background: #2d2d2d;
+    width: 1150px;
+    height: 400px;
+    color: #fff;
+	
+}
+#timebox{
+ 	position: relative;
+    top: 60px;
+    margin: 25px 10px 10px 10px;
+    width: 1060px;
+    height: auto;
+    color: #fff;
+}
+#box3{
+	position: relative;
+    top: 200px;
+    border-radius: 10px;
+    width: 1400px;
+    height: 700px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+
+#networkgraph{
+    position: absolute;
+    background: #2d2d2d;
+    border-radius: 10px;
+    top: 42%;
+    left: 50%;
+    width: 750px;
+    height: 700px;
+    color: #fff;
+    margin: 25px 10px 10px 0px;
+}
+
+#networkgraph svg{
+	position: relative;
+    left: 15%;
+    top: -25%;
+    transform: translate(-25%, 20%);
+}
+/*  좋아요 버튼 아이콘 위치 및 테두리 디자인 */
+.container{
+	position: absolute;
+    left: 94%;
+    top: 94%;
+    transform: translate(-50%,-50%);
+    padding: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+
+
+/* 아이콘 크기 */
+.container i{
+	font-size: 1rem;
+	color:#000;
+}
+/* 마우스 이벤트 */
+.container:hover i{
+	color:#f50057;
+}
+.container .fas{
+	color:#f50057;
+	transition:.4s;
+}
+
+/*  위시리스트 버튼 아이콘 위치 및 테두리 디자인 */
+.container1{
+	position: absolute;
+    left: 95%;
+    top: 105%;
+    transform: translate(-50%,-50%);
+    padding: 5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+    border-radius: 5px;
+    background-color: #fafafa;
+    z-index: 20;
+}
+/* 아이콘 크기 */
+.container1 i{
+	font-size: 1rem;
+	color:#000;
+}
+/* 마우스 이벤트 */
+.container1:hover i{
+	color:#ffff00;
+}
+.container1 .fas{
+	color:#ffff00;
+	transition:.4s;
+}
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+text {
+  font-family: sans-serif;
+  font-size:15px;
+  color:#fff;
+  
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis--x path {
+  display: none;
+}
+
+#timebox svg{
+	position: relative;
+    top: 50%;
+    left: 50%;
+       transform: translate(-70%,-30%);
+}
+#ChartDIv{
+	position: relative;
+    background: #2d2d2d;
+    border-radius: 10px;
+    top: 16%;
+    left: 0%;
+    width: 600px;
+    height: 700px;
+    color: #fff;
+    margin-right: 10px;
+    float: left;
+    text-align: center;
+}
+
+#ChartDIv h2{
+	position: relative;
+    top: 40%;
+}
